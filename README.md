@@ -18,13 +18,13 @@ A full-stack admin panel built with **Next.js 16**, **Material UI v9**, and **Zu
 
 ## Tech Stack
 
-| Concern | Library |
-|---|---|
-| Framework | Next.js 16.2.4 (App Router) |
-| UI | Material UI v9 + `@mui/material-nextjs` |
-| State management | Zustand (with `persist` middleware) |
-| Authentication | NextAuth v4 (credentials provider) |
-| API | [dummyjson.com](https://dummyjson.com/) |
+| Concern          | Library                                 |
+| ---------------- | --------------------------------------- |
+| Framework        | Next.js 16.2.4 (App Router)             |
+| UI               | Material UI v9 + `@mui/material-nextjs` |
+| State management | Zustand (with `persist` middleware)     |
+| Authentication   | NextAuth v4 (credentials provider)      |
+| API              | [dummyjson.com](https://dummyjson.com/) |
 
 ---
 
@@ -39,7 +39,7 @@ A full-stack admin panel built with **Next.js 16**, **Material UI v9**, and **Zu
 
 ```bash
 # 1. Clone the repo
-git clone <your-repo-url>
+git clone https://github.com/Punyashreekm/nextjs-mui-dashboard
 cd venture
 
 # 2. Install dependencies
@@ -93,11 +93,11 @@ Open [http://localhost:3000](http://localhost:3000) — you will be redirected t
 
 Use any user from the DummyJSON dataset. A few examples:
 
-| Username | Password |
-|---|---|
-| `emilys` | `emilyspass` |
+| Username   | Password       |
+| ---------- | -------------- |
+| `emilys`   | `emilyspass`   |
 | `michaelw` | `michaelwpass` |
-| `sophiab` | `sophiabpass` |
+| `sophiab`  | `sophiabpass`  |
 
 Full list: `GET https://dummyjson.com/users` (password pattern is `<username>pass`).
 
